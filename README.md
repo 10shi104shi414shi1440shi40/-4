@@ -30,6 +30,8 @@ System.out.println("请输入姓名：");
             }
         }
 ···
+
+···
 public class Yichang1 extends Exception {
     String message;
     public Yichang1(){
@@ -39,6 +41,8 @@ public class Yichang1 extends Exception {
         return message;
     }
 }
+···
+
 ···
 public class Inputname {
     boolean D;
@@ -55,7 +59,12 @@ public class Inputname {
     }
 }
 ···
+
 使用while循环设置循环输入并用自定义异常来限制输入内容类型。
 
 ## 实验结果
 
+![img](https://github.com/10shi104shi414shi1440shi40/-4/blob/main/1604842344(1).png)
+
+## 实验感想
+在该实验中，我掌握了接口定义，以及类实现接口。接口用interface关键字定义，在接口中，可以用abstract是修饰方法的，也可以去掉abstract，编译时会默认为抽象方法。类实现接口可用implements表示，同时学会了异常处理尤其对自定义异常的使用更加熟练。这次实验锻炼了我的思维，让我在面对同一问题时能够拥有多中解决的方案，在学习java知识的同时学习解决问题的方法。
